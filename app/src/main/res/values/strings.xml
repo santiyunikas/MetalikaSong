@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Metalika Song</string>
+    <string name="introTitle_in">Perkenalan</string>
+    <string name="introTitle_en">Introduction</string>
+    <string name="introContent_in">Teknologi media tanam dari limbah perikanan budidaya dianggap sebagai sistem alternatif yang efisien karena nutrisi dapat terus didaur ulang dan digunakan kembali. Limbah dari akuakultur biofloc berpotensi untuk dimanfaatkan sebagai pupuk organik dengan mencampurkannya dengan sumber daya biomassa.</string>
+    <string name="introContent_en">Biofloc technology is considered an alternative system that is efficient because nutrients can continue to be recycled and reused. Waste from biofloc aquaculture has the potential to be used as organic fertilizer by mixing it with biomass resources.</string>
+    <string name="manualTitle_en">Manual Procedure</string>
+    <string name="manualTitle_in">Prosedur Manual</string>
+    <string name="abTitle_en">Tools and Materials</string>
+    <string name="abTitle_in">Alat dan Bahan</string>
+    <string name="langkah1_in">Kumpulkan alat dan bahan</string>
+    <string name="langkah2_in">Jemur jerami dan limbah perikanan budidaya (biofloc) menggunakan wadah lengser di bawah sinar matahari.</string>
+    <string name="langkah3_in">Potong-potong jerami menjadi sedikit halus menggunakan gunting / bisa juga di giling menggunakan blender.</string>
+    <string name="langkah4_in">Siapkan Ember, campurkan jerami sebanyak 1 kg, pupuk kandang 0,8 kg dan biofloc sebanyak 200 gram untuk menghasilkan METALIKA SONG sebanyak 2 kg dengan C/N Ratio 21.</string>
+    <string name="langkah5_in">Tambah dan campurkan bakteri EM4 sebanyak ¾ tutup botol, kemudian aduk rata.</string>
+    <string name="langkah6_in">Fermentasi dengan menutup menggunakan kain selama kurang lebih 5 hari.</string>
+    <string name="langkah7_in">Masukkan METALIKA SONG ke dalam Polibag.</string>
+    <string name="langkah8_in">METALIKA SONG siap ditanami.</string>
+    <string name="notes">Media tanam ini baik digunakan pada segala jenis tanaman jenis sayuran dan buah-buahan karena mengandung Karbon dan Nitrogen yang tinggi.</string>
+</resources>
+

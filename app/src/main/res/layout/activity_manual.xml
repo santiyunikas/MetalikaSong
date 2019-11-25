@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txProcTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/manualTitle_in"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txAbTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txProcTitle"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/abTitle_in"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardAb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txAbTitle"
+                android:layout_margin="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+
+                <ListView
+                    android:id="@+id/listView_ab"
+                    android:layout_width="match_parent"
+                    android:layout_height="440dp">
+
+                </ListView>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/txManualTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardAb"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text="Langkah"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txManualTitle"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="1"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah1_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="2"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah2_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="3"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah3_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="4"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah4_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="5"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah5_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="6"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah6_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="7"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah7_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/manual8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual7"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    >
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:text="8"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:background="#777676"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/langkah8_in"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/txNoteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manual8"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text="Catatan"
+                android:textSize="20sp" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/txNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txNoteTitle"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="@color/colorCardView"
+                app:cardCornerRadius="8dp">
+
+                    <TextView
+                        android:layout_margin="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notes"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>
